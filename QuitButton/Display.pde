@@ -1,0 +1,5 @@
+void displayOrientation()
+{
+}
+
+//End diplayOrientation
