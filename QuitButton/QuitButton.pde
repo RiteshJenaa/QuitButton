@@ -5,7 +5,6 @@ color resetWhite=#FFFFFF;
 void setup()
 {
   fullScreen();//displayWidth and displayHeight
-  //Landscape
   displayOrientation();
   population();
   //

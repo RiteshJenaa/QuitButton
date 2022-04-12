@@ -10,7 +10,9 @@ void quitButtonSetupPopulation(int canvasCentre)
   quitButtonHeight = appHeight*1/2;
 }
 //End quitButtonSetup
+
 //
+
 void quitButtonDraw()
 {
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight )
@@ -28,7 +30,9 @@ void quitButtonDraw()
   fill(resetWhite);
 }
 //End quitButtonDraw
+
 //
+
 void quitButtonKeyPressed()
 {
   //Quit KeyBoard Button
@@ -36,10 +40,14 @@ void quitButtonKeyPressed()
   //
 }
 //End quitButtonKeyPressed
+
 //
+
 void quitButtonMousePressed()
 {
     if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
   //
 }
 //End quitButtonMousePressed
+
+//

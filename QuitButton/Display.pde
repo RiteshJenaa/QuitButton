@@ -2,6 +2,7 @@
 //
 void displayOrientation()
 {
+  //Landscape
   String landscape = "Good to go!";
   String portrait = "Please turn your phone";
   String displayOrientation = ( width >= height ) ? landscape : portrait ;
